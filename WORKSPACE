@@ -198,16 +198,10 @@ junit_platform_java_repositories(
 # the new testkit
 # todo: merge into the bsp repo?
 
-#git_repository(
-#    name = "testkit",
-#    commit = "2b5d71849abf47728953f62a6b50c9e927a69187",
-#    remote = "https://github.com/agluszak/bsp-testkit2.git",
-#    shallow_since = "1648576682 +0200",
-#)
-
-local_repository(
+git_repository(
     name = "testkit",
-    path = "/home/andrzej/code/bazel/testkit2",
+    branch = "main",
+    remote = "https://github.com/agluszak/bsp-testkit2.git",
 )
 
 # ======================================================================================================================

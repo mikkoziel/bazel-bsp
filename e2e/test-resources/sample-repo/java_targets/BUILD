@@ -21,6 +21,6 @@ java_library(
     name = "java_library_exported",
     visibility = ["//visibility:public"],
     exports = [
-        "//java_targets/subpackage",
+        "//java_targets/subpackage:java_library",
     ],
 )
